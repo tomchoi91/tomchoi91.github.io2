@@ -1,0 +1,20 @@
+---
+title: "Index"
+author: "Tom Choi"
+date: "11/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<hr/>
+## Introduction
+
+This is a page for hosting my documents via Github
+
+Please see my CV [here](https://tomchoi91.github.io/CV/CV_CHOI_TOM.html). <br/>
+Please see my presentation [here](https://tomchoi91.github.io/Xaringan/xaringan_CHOI_TOM.html).
+
+
+<hr/>
