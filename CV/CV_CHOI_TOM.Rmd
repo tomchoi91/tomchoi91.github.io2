@@ -1,0 +1,126 @@
+---
+title: CV
+name: Dongho (Tom)
+surname: Choi
+position: "PhD Student"
+address: "263 Louise Pound Hall"
+phone: +1 (420) 875-3918 
+email: "tom.choi@huskers.unl.edu"
+github: tomchoi91
+linkedin: dongho-choi-b44801133/
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Dongho (Tom) is a Doctoral student in University of Nebraska-Lincoln majoring in Psychological Studies in Education."
+output: 
+  vitae::markdowncv:
+    theme: kjhealy
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+## Some stuff about me
+
+ * I am an international student from South Korea.
+ * I like 90s movies.
+ * I like watching streamers playing games which I never played.
+ 
+## Skills
+
+ * I can speak Korean (native) and English (fleunt).
+ * I am proficient in SPSS, SAS, R, and Mplus.
+ * I know how to use SQL.
+
+## Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD student, Educational Psychology", "2018-Present", "University of Nebraska-Lincoln", "Lincoln, USA",
+  "BA, Counseling Psychology", "2017", "Handong Global University", "Pohang, South Korea",
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Publications
+
+```{r}
+library(dplyr)
+bibliography_entries("pub1.bib") %>%
+  arrange(desc(author$family),issued)
+
+
+```
+
+## Manuscripts under review or in press
+
+```{r}
+library(dplyr)
+
+bibliography_entries("inprogress.bib") %>%
+  arrange(desc(author$family), issued)
+```
+
+## Presentations
+
+```{r}
+library(dplyr)
+
+bibliography_entries("presentation.bib") %>%
+  arrange(desc(issued))
+```
+
+
+## Research experiences
+
+```{r}
+tribble(
+  ~ Period, ~ Position, ~ Institution, ~ Responsibility,
+  "Sep.2018 ~ present", "Graduate Research Assistant", "Nebraska Center for Research on Children, Youth, Families & Schools, University of Nebraska–Lincoln","Data analysis",
+  "Nov.2017 ~ Feb.2018", "Undergraduate Research Assistant", "The Effect of Probiotics on Human Cognitive Function and Emotional Stability, Principal investigator: Sung-Man Shin Ph.D.", "Data analysis",
+  "Feb.2016 ~ Dec.2017", "Undergraduate Research Assistant", "Alcohol Abuse Status and Its Related Factors of Korean Rehabilitation Protection Recipients, Principal investigator: Young-Ok Han, Ph.D.", "Literature review, research design, production and distribution of the survey, data analysis, and writing manuscript",
+  "Oct.2015 ~ Dec.2015", "Undergraduate Research Assistant", "Descriptive Research on First Generation Students – In Comparison with Second Generation Students in ROK (South Korea), Principal investigator: Sung-Man Shin Ph.D.", "Literature review, research design, production and distribution of the survey, and data analysis",
+  "Jun.2015 ~ Mar.2016", "Undergraduate Research Assistant", "Exploratory Research on Identity Formation Courses in Christian Higher Education Institutes in South Korea and the United States, Principal investigator: Nicholas Lantinga, Ph.D.", "Data collection"
+) %>% 
+  detailed_entries(
+    Institution,
+    Period, 
+    Responsibility,
+    Position
+  )
+
+```
+
+## Teaching experiences
+
+```{r}
+tribble(
+  ~ Period, ~ Position, ~ Institution, ~ Responsibility,
+  "Mar.2017 ~ Jun.2017", "Teaching Assistant", "‘Abnormal Psychology’, a counseling psychology major course","Organizing a field trip, grading, and checking attendance",
+  "Mar.2016 ~ Jun.2016", "Teaching Assistant", "‘The Handong Character Build-up’, a freshman mandatory course", "Grading and checking attendance"
+) %>% 
+  detailed_entries(
+    Institution,
+    Period, 
+    Responsibility,
+    Position
+  )
+
+```
+
+## Awards and honors
+
+```{r}
+library(tibble)
+tribble(
+  ~ Year, ~ Award, ~ Institution,
+  "2018", "Othmer Fellowship", "University of Nebraska-Lincoln",
+  "2017", "Second Placing at Student‐First‐Authored Poster Contest","APA",
+  "2016", "Excellence award on Gambling Addiction Prevention Student Activity", "Korea Center on Gambling Problems",
+  "2015", "First placing at Undergraduate Student research contest", "Handong Global University",
+  "2014", "Academic Excellence Scholarship from the university", "Handong Global University"
+) %>% 
+  brief_entries(Award, Year, Institution)
+```

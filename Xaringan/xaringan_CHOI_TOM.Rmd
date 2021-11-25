@@ -1,0 +1,85 @@
+---
+title: "Homework"
+subtitle: "presentation <br/> using xaringan"
+author: "Tom Choi"
+institute: "University of Nebraska-Lincoln"
+date: "2021/11/14 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts"]
+    yolo: 
+      img: images/Picture2.png
+      times: 5
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      # beforeInit: "macros.js"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+---
+class: inverse, middle
+
+# Introducing myself
+
+.pull-left[
+- Dongho (Tom) Choi
+
+- Doctoral Student in Educational (Expected 2023)
+
+- Born on Sep. 15th, 1991.
+
+- Grew up in Wonju, Gang-won Province, South Korea.
+
+- https://github.com/tomchoi91
+]
+
+.pull-right[
+.center[
+<!-- <img src="images/Picture2.png"  width = "70%" align="right"> -->
+```{r, out.width="60%", echo=FALSE}
+knitr::include_graphics("images/Picture2.png")
+# ?knitr::include_graphics
+```
+]
+]
+---
+background-image: url(images/cat.jpg)
+background-position: 50% 50%
+class: center, bottom, inverse
+
+# My favorite animal
+
+
+???
+
+Image credit: [blog](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrunch.co.kr%2F%40esonatural%2F1&psig=AOvVaw05hsuoN_Pw-TUVRUYN5V49&ust=1637872968062000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJD_1bbusfQCFQAAAAAdAAAAABBt)
+---
+# My favorite plot
+
+```{r echo = F, message = F, warning = F, fig.width = 10}
+library(ggplot2)
+library(dplyr)
+mtcars %>%
+  mutate(cyl2=as.factor(cyl)) %>%
+  ggplot(aes(x=wt, y=mpg, group=cyl2))+
+  geom_point(aes(shape=cyl2, color=cyl2))
+```
+---
+# My CV
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).

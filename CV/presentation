@@ -1,0 +1,71 @@
+@misc{misc1,
+  author       = {Cunha, A. B.and Babik, I.and Choi, D.-H.and Koziol, N.and Harbourne, R.and Dusing, S.and McCoy, S.and Bovaird, J.and Lobo, M.},
+  title        = {Performance after mastery of means-end problem solving differs in children with mild versus significant motor delays},
+  howpublished = {Poster presented at the Society for Research in Child Development Biennial Meeting, Virtual.},
+  month        = 4,
+  year         = 2021,
+  note         = {An optional note}
+}
+
+@misc{misc2,
+  author       = {Babik, I.and Cunha, A. B.and Choi, D.-H.and Koziol, N.and Harbourne, R.and Dusing, S. C.and McCoy, S. W.and Bovaird, J.and Lobo, M. A.},
+  title        = {START-Play intervention advanced reaching outcomes in children with significant but not mild motor delay},
+  howpublished = {Paper presented to the Combined Sections Meeting of the American Physical Therapy Association, Virtual.},
+  month        = 2,
+  year         = 2021,
+  note         = {An optional note}
+}
+
+@misc{misc3,
+  author       = {Shin, S.and Choi, D.and Park, K.and Song, Y.},
+  title        = {Examining Trajectory in Children’s Mobile Phone Dependency Using Latent Growth Modeling Analysis},
+  howpublished = {Poster presented at 2018 American Psychological Association Annual Convention. San Francisco, CA.},
+  month        = 8,
+  year         = 2018,
+  note         = {An optional note}
+}
+
+@misc{misc4,
+  author       = {Koo, K.and Choi, D.and Song, Y. },
+  title        = {Am I welcomed here? Campus climate and psychological well-being among international college students},
+  howpublished = {Poster presented at 2018 American Psychological Association Annual Convention. San Francisco, CA.},
+  month        = 8,
+  year         = 2018,
+  note         = {An optional note}
+}
+
+@misc{misc5,
+  author       = {Shin, S.and Song, Y.and Choi, D.and Lee, M. },
+  title        = {Relation Between Drinking and Psychological Variables of Korean Rehabilitation Protection Recipients},
+  howpublished = {Poster presented at 2017 American Psychological Association(APA) Annual Convention, Washington, D.C.},
+  month        = {1},
+  year         = 2017,
+  note         = {An optional note}
+}
+
+@misc{misc6,
+  author       = {Lee, Y.and Choi. D.and Koo., K.and Choi, J. },
+  title        = {Discrepancy between Reality and Expectation: Pathway to  Smartphone Dependency among Adolescents in Korea},
+  howpublished = {Poster presented at 2017 American Psychological Association(APA) Annual Convention, Washington, D.C.},
+  month        = {1},
+  year         = 1993,
+  note         = {An optional note}
+}
+
+@misc{misc7,
+  author       = {Shin, S.and Park Y.and Choi. Y.and Jung. J.and Choi, D. },
+  title        = {The Mediating Effect of Attention on the Relationship between Smartphone Dependency and Aggression},
+  howpublished = {Poster presented at 2016 Korean Psychological Association (KPA) Conference, Gunsan.  },
+  month        = {1},
+  year         = 2016,
+  note         = {An optional note}
+}
+
+@misc{misc,
+  author       = {Cho, Y.and Choi, D.and Kim, D.and Kim, J.and Lee, Y. },
+  title        = {The Relationship between Attachment Anxiety and College Adaptation: The Mediating Effect of Smartphone Addiction and Existential Spiritual Well-being},
+  howpublished = {Poster presented at 2016 Korean Clinical Psychology Association (KCPA) Spring Conference, Chuncheon.},
+  month        = {1},
+  year         = 2016,
+  note         = {An optional note}
+}
