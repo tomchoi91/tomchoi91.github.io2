@@ -13,7 +13,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is a page for hosting my documents via Github
 
-Please see my CV [here](https://tomchoi91.github.io/CV/CV_CHOI_TOM.html). <br/>
+Please see my CV using html [here](https://tomchoi91.github.io/CV/CV_CHOI_TOM.html). <br/>
+Please see my CV using Latex [here](https://github.com/tomchoi91/tomchoi91.github.io/blob/main/CV(latex)/main.pdf). <br/>
 Please see my presentation using Xaringan [here](https://tomchoi91.github.io/Xaringan/xaringan_CHOI_TOM.html). <br/>
 Please see my presentation using Beamer(latex) [here](https://github.com/tomchoi91/tomchoi91.github.io/blob/main/Beamer(latex)/main.pdf).
 
