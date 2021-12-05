@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Welcome"
 author: "Tom Choi"
 date: "11/24/2021"
 output: html_document
@@ -14,7 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 This is a page for hosting my documents via Github
 
 Please see my CV [here](https://tomchoi91.github.io/CV/CV_CHOI_TOM.html). <br/>
-Please see my presentation [here](https://tomchoi91.github.io/Xaringan/xaringan_CHOI_TOM.html).
+Please see my presentation using xaringan [here](https://tomchoi91.github.io/Xaringan/xaringan_CHOI_TOM.html).
+Please see my presentation using xaringan [here](https://tomchoi91.github.io/omchoi91.github.io/Beamer(latex)/main.pdf).
 
 
 <hr/>
